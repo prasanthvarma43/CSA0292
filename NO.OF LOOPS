@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+  int i,n;
+  printf("enter required no.of loops\n");
+  scanf("%d",&n);
+  for(i=0;i<n;i++)
+  {
+      printf("SIMATS\n");
+      
+  }
+
+  
+
+    return 0;
+}
