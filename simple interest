@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main() {
+int P=1000,R=8,T=5,SI;
+SI=P*T*R/100;
+printf("SI=%d\n",SI);
+    return 0;
+}
