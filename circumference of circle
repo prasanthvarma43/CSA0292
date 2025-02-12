@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() 
+{
+int radius=4;
+float circumference;
+circumference=2*3.14*radius;
+printf("circumference of circle=%.2fcm",circumference);
+    return 0;
+}
