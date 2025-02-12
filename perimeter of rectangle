@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() 
+{
+int lenght=6,breadth=18,perimeter;
+perimeter=2*(lenght*breadth);
+printf("perimeter of rectangle=%d",perimeter);
+
+    return 0;
+}
