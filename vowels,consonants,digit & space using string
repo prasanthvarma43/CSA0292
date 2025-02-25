@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+int main()
+{
+    char a[30]="simats university chennai";
+    int vowel,consonant,digit,space,i;
+    vowel=consonant=digit=space=0;
+    for(i=0;a[i]!='\0';i++)
+    {
+        a[i]=tolower(a[i]);
+        if(a[i]=='a'||a[i]=='e'||a[i]=='i'||a[i]=='o'||a[i]=='u')
+    {
+        vowel++;
+    }
+    else if(a[i]>='a'&& a[i]<='z')
+    {
+        consonant++;
+    }
+    else if(a[i]>='0' && a[i]<='9')
+    {
+        digit++;
+    }
+    else if(a[i]==' ')
+    {
+        space++;
+    }
+    }
+    printf("vowels:%d\n",vowel);
+    printf("consonants:%d\n",consonant);
+    printf("digits:%d\n",digit);
+    printf("space:%d",space);
+    
+}
