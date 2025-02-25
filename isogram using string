@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+    {
+        char a[20]="sai";
+        char b[20]="ias";
+        int len1,len2;
+        len1=strlen(a);
+        len2=strlen(b);
+        if(len1!=len2)
+        {
+            printf("given string is not a isogram\n");
+        }
+        else
+        printf("given string a isogram");
+    }
