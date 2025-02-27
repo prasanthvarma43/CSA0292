@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main()
+{
+    char str[100]="congralutions",ch;
+    int count=0;
+    printf("enter the character to find its frequency:");
+    scanf("%c",&ch);
+    for(int i=0;str[i]!='\0';++i)
+    {
+        if(ch==str[i])
+        ++count;
+    }
+    printf("frequency of %c=%d",ch,count);
+    return 0;
+}
