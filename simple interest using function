@@ -1,0 +1,27 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+float calculateSI (float principle,float time,float rate,char customertype);
+int main() 
+{
+    float
+    principal=2000,time=3,rate,SI;
+    char customertype='n';
+    SI=calculateSI(principal,time,rate,customertype);
+    printf("the simple interest is %.2f",SI);
+    return 0;
+}
+float calculateSI (float principle,float time,float rate,char customertype)
+    {
+        if(customertype=='Y'||customertype=='y')
+        {
+            rate=12.0;
+        }
+        else
+        {
+            rate=10.0;
+        }
+        return(principle*rate*time)/100;
+    }
+    
+
+  
